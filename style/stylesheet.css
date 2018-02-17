@@ -18,6 +18,7 @@
 span {
 	font-size: 100px;
 	height: 120px;
+	//width: auto;
 }
 .dropdown {
     position: absolute;
