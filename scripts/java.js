@@ -141,3 +141,13 @@ function numblock0() {
 	calculationNumbers = calculationNumbers + "0";
 	output.innerHTML = calculationNumbers;
 }
+
+
+
+
+// Design individualisierung
+var numbsbgc = white;
+
+function colorred()	{
+	numbsbgc = red;
+}
