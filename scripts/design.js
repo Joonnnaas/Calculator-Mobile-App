@@ -1,8 +1,13 @@
-"use strict";
+(function () {
+	function init() {
+	  document.getElementById('fontcolor').addEventListener('click',ändereSchriftFarbe);
+	}
 
-var colortochange;
+    function ändereSchriftFarbe () {
+      for (var i = 0, p = document.getElementsByTagName('p'); i < p.length; i++) {
+        p[i].style.color = 'red';
+      }
+    }
 
-function changethecolor() {
-  colortochange = #FE2E2E;
-  console.log('Color change DONE!');
-}
+  document.addEventListener('DOMContentLoaded',init);
+}());

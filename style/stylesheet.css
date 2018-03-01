@@ -1,12 +1,8 @@
 *{
 	font-family: Arial;
 	color: black;
-	max-width: 7.2cm;
-	max-height: 14.2cm;
 }
 body	{
-	border: 1px black solid;
-	border-radius: 5px;
 }
 .calculationstring {
 	margin: auto;
@@ -102,24 +98,4 @@ td:hover {
 	color: white;
 	background-color: black;
 	opacity: 0.3;
-}
-
-
-
-/*Design individualisierung*/
-.colorchange		{
-
-}
-td			{
-	background-color: red;
-	color: black;
-	font-size: 100%;
-	border: black 2px solid;
-	width: 400px;
-	height: 50px;
-}
-.toChange		{
-	background-color: "colortochange";
-	border: silver 3px solid;
-	padding-left: 25px;
 }
