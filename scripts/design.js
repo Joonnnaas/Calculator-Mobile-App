@@ -11,3 +11,17 @@
 
   document.addEventListener('DOMContentLoaded',init);
 }());
+
+(function () {
+	function init() {
+	  document.getElementById('numbsbgcolor').addEventListener('click',ändereNumbsHintergrundFarbe);
+	}
+
+    function ändereNumbsHintergrundFarbe () {
+      for (var i = 0, button = document.getElementsByTagName('button'); i < button.length; i++) {
+        button[i].style.background = 'blue';
+      }
+    }
+
+  document.addEventListener('DOMContentLoaded',init);
+}());
