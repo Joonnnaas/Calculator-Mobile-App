@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style/style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+  </head>
+  <body>
+      <form name="form">
+        <input id="tv" class="textview">
+      </form>
+      <table>
+        <tr>
+          <td><input type="button" value="C" onclick="c()" class="operation"></td>
+          <td><input type="button" value="/" onclick="insert('/')" class="operation"></td>
+          <td><input type="button" value="x" onclick="insert('*')" class="operation"></td>
+          <td><input type="button" value="<" onclick="back()" class="operation"></td>
+
+        </tr>
+        <tr>
+          <td><input type="button" value="7" onclick="insert(7)" class="number"></td>
+          <td><input type="button" value="8" onclick="insert(8)" class="number"></td>
+          <td><input type="button" value="9" onclick="insert(9)" class="number"></td>
+          <td><input type="button" value="-" onclick="insert('-')" class="operation"></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="4" onclick="insert(4)" class="number"></td>
+          <td><input type="button" value="5" onclick="insert(5)" class="number"></td>
+          <td><input type="button" value="6" onclick="insert(6)" class="number"></td>
+          <td><input type="button" value="+" onclick="insert('+')" class="operation"></td>
+        </tr>
+        <tr>
+          <td><input class="number" type="button" value="1" onclick="insert(1)"></td>
+          <td><input class="number" type="button" value="2" onclick="insert(2)"></td>
+          <td><input class="number" type="button" value="3" onclick="insert(3)"></td>
+          <td rowspan="2"><input style="height: 40vh" class="equal" type="button" value="=" onclick="equal()"></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input style="width: 50vw" type="button" value="0" onclick="insert('0')"  class="number"></td>
+          <td><input type="button" value="." onclick="insert('.')" class="operation"></td>
+        </tr>
+      </table>
+      <script src="script/script.js" charset="utf-8"></script>
+  </body>
+</html>
