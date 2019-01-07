@@ -1,0 +1,45 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-family: 'Calibri';
+}
+.textview {
+  width: 100vw;
+  margin: 5px 5px 0px 3px;
+  font-size: 10vh;
+  padding: 5px;
+  border-bottom: solid 2px black;
+}
+table{
+  background-color: black;
+}
+
+.number{
+  background-color: white;
+  width: 25vw;
+  height: 20vh;
+  font-size: 5vw;
+  cursor: pointer;
+}
+.operation{
+  background-color: #d4d4d4;
+  color: #5A93F5;
+  width: 25vw;
+  height: 20vh;
+  font-size: 5vw;
+  cursor: pointer;
+}
+.equal {
+  background-color: #5A93F5;
+  color: white;
+  width: 25vw;
+  height: 20vh;
+  font-size: 5vw;
+  cursor: pointer;
+}
